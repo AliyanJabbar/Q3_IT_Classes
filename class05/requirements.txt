@@ -1,0 +1,3 @@
+# this file will include all the dependecies so that if a person use it, he can install it using (pip install -r requirements.txt) when at root directory 
+pytest
+
