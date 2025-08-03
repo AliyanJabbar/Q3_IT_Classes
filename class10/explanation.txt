@@ -1,0 +1,50 @@
+starting fourth quarter 4. 
+
+firstly we are assigning some numbers to all words of English like : 
+
+SIR = 288
+AMEEN = 255 
+ANEEQ = 266
+
+then,
+SIR AMEEN = 288255
+
+
+sawal ko samajh kr uska sahi jawab dena = emotional intelligence
+
+
+Diffustion Model -> for videos and image
+GAN Model -> for videos and image
+Transformer -> for text
+
+
+Transformer uses self attention mechanism. while gan and diffusion uses two models(generator and validator/descriminator) one generate answer and the second one suggest if the result it right or wrong.
+
+Transformer;works with self attention.
+sentence : I want to book a flight for Dubai
+main words : book | flight | Dubai 
+
+
+--> x-axis --
+^ [[1,1,1,1]
+| [1,1,1,1]
+| [1,1,1,1]
+Y [1,1,1,1]]
+
+also can be written as [[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]]
+
+Traning(jo developer ne ya phir open ai walon ne ki hai)
+(Input > LLM > Output) 
+Inference(jo hum kr rhe)
+
+
+(Input > LLM > Tool Calling) suggesting which function should we choose
+
+tab tak loop chale ga jab tak output nhi miljata. jab tak tool calling ata rhe ga to hum while loop chalate rhen ge, phir output ayega to loop break kr den ge.
+
+
+
+Input: My name is Ameen -> 4 token 
+Ouput: ok Ameen -> 2 token
+
+Input: What is my name -> 4 + 4 + 2 = 10 token
